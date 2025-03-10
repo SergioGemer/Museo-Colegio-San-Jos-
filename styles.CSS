@@ -1,0 +1,36 @@
+body {
+    display: flex; /* Convierte el cuerpo en un contenedor flexible */
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la pantalla */
+    margin: 0 auto; /* Elimina los márgenes predeterminados del cuerpo */
+    background-color: beige;
+}
+
+.historia{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.segmentos{
+    border: 1px;
+    display: block;
+    text-align: center;
+
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titulo {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.presentacion{
+    margin-left: 100px;
+    margin-right: 950px;
+}
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
